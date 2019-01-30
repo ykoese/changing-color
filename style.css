@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 600px;
+
+  }
+ 
+  #red{ 
+  background-color:red;
+  width: 100px;
+  margin: auto;
+  height: 100px;
+}
+
+#blue { 
+  background-color:blue;
+  width: 100px;
+  margin: auto;
+  height: 100px;
+  }
+  #hoovered { 
+  background-color:red;
+  width: 100px;
+  margin: auto;
+  height: 100px;
+  }
+
+  #red:hover ~ #hoovered  { background-color: yellow; }
+  #blue:hover ~ #hoovered { background-color: green; }
+  
